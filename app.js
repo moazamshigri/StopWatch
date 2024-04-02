@@ -19,6 +19,7 @@ let startTimer = () => {
         }
         if(sec==60){
           sec++;
+          sec =0
           min++;
         }
         let mSecString = mSec<10?`0${mSec}`:mSec;
